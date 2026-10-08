@@ -5,6 +5,12 @@
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body { margin: 0; background: var(--bg-page); color: var(--text-primary); font-family: Inter, system-ui, sans-serif; }
+html { scrollbar-width: thin; scrollbar-color: #bfc4ca #eef0f2; }
+body::-webkit-scrollbar { width: 7px; }
+body::-webkit-scrollbar-track { background: #eef0f2; }
+body::-webkit-scrollbar-thumb { border-radius: 999px; background: #bfc4ca; }
+body::-webkit-scrollbar-thumb:hover { background: #aeb4bc; }
+body::-webkit-scrollbar-button { display: none; width: 0; height: 0; }
 button, input, select { font: inherit; }
 button { color: inherit; cursor: pointer; }
 button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--lime); outline-offset: 3px; }

@@ -1,0 +1,34 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Unused reference assets and local screenshots
+PRD_SharePal_Gaming_Gadgets_Page.md
+public/desktop.ini
+public/Screenshot*.png
+public/assets/platform-xbox.svg
+public/assets/platform-ps5.svg
+public/assets/Sony.svg
+public/assets/cat-*.svg
+public/assets/cat-*.webp

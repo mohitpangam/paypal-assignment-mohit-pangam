@@ -1,0 +1,22 @@
+:root {
+  --bg-page: #f3f5f7;
+  --bg-surface: #ffffff;
+  --bg-surface-2: #e9edf2;
+  --header-purple: #4b1d96;
+  --header-purple-deep: #351270;
+  --logo-blue: #1e40af;
+  --lime: #84cc16;
+  --lime-dark: #6b9a0a;
+  --orange: #f26b21;
+  --blue-accent: #3b82f6;
+  --purple-banner: #6427b3;
+  --text-primary: #081226;
+  --text-muted: #747b87;
+  --border-subtle: rgba(8, 18, 38, .14);
+  --container-width: 1520px;
+  --sidebar-width: 120px;
+  --card-radius: 24px;
+  --banner-radius: 22px;
+  --tile-radius: 16px;
+  --pill-radius: 999px;
+}
